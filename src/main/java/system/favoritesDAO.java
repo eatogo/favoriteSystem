@@ -44,8 +44,8 @@ public class favoritesDAO {
 			if(rest.next()) {
 				result=new favoritesBean();
 				result.setFavorite_id(rest.getInt("favorite_id"));
-				result.setFavorite_food(favorite_food);a(rest.getInt("favorite_id"));
-				result.set(rest.getInt("favorite_id"));
+				result.setFavorite_food(rest.getInt("favorite_food"));
+				result.setFavorite_user(rest.getInt("favorite_user"));
 				
 				
 			}
