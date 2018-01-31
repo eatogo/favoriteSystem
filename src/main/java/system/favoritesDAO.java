@@ -77,7 +77,39 @@ public class favoritesDAO {
 		}
 		
 		
-		
-		
+	private static final String INSERT = "Insert into FAVORITES (favorite_id ,favorite_food ,favorite_user) values (?, ?, ?)";
+
+	public favoritesBean insertMember(favoritesBean bean) throws SQLException {
+		favoritesBean result = null;
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		try {
+			conn = ds.getConnection();
+			stmt = conn.prepareStatement(INSERT);
+
+			stmt.setString(1, bean.getFavorite_id());
+			stmt.setString(2, bean.getFavorite_food());
+			stmt.setString(3, bean.getFavorite_user());					
+			}
+
+		} finally {
+			if (stmt != null) {
+				try {
+					stmt.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return result;
+	}
+
 	}
 
