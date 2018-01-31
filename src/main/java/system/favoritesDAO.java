@@ -3,6 +3,7 @@ package system;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import javax.sql.DataSource;
 import javax.naming.Context;
@@ -45,16 +46,38 @@ public class favoritesDAO {
 				result=new favoritesBean();
 				result.setFavorite_id(rest.getInt("favorite_id"));
 				result.setFavorite_food(rest.getInt("favorite_food"));
-				result.setFavorite_user(rest.getInt("favorite_user"));
-				
-				
+				result.setFavorite_user(rest.getInt("favorite_user"));				
 			}
-		}catch (Exception e) {
-			// TODO: handle exception
+		}catch (SQLException e) {
+			e.printStackTrace();
+		}finally{
+			if (rest != null) {
+				try {
+					rest.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+			if (stmt != null) {
+				try {
+					stmt.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return result;
 		}
 		
 		
 		
 		
 	}
-}
+
