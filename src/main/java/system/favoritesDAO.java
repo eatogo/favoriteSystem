@@ -87,10 +87,10 @@ public class favoritesDAO {
 			conn = ds.getConnection();
 			stmt = conn.prepareStatement(INSERT);
 
-			stmt.setString(1, bean.getFavorite_id());
-			stmt.setString(2, bean.getFavorite_food());
-			stmt.setString(3, bean.getFavorite_user());					
-			}
+			stmt.setInt(1, bean.getFavorite_id());
+			stmt.setInt(2, bean.getFavorite_food());
+			stmt.setInt(3, bean.getFavorite_user());					
+		
 
 		} finally {
 			if (stmt != null) {
@@ -111,5 +111,14 @@ public class favoritesDAO {
 		return result;
 	}
 
-	}
+	
+	
+	
+	
+	
+	
+}
+
+
+
 
