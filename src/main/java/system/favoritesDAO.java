@@ -32,8 +32,8 @@ public class favoritesDAO {
 	private static final String SELECT_BY_ID="Select favorite_id ,favorite_food ,favorite_user  from FAVORITES where favorite_id=?";
 	
 	
-	public favoritesBean select(String id) {
-		favoritesBean result = null;
+	public favorites select(String id) {
+		favorites result = null;
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		ResultSet rest = null;
@@ -43,7 +43,7 @@ public class favoritesDAO {
 			stmt.setString(1,id);
 			rest= stmt.executeQuery();
 			if(rest.next()) {
-				result=new favoritesBean();
+				result=new favorites();
 				result.setFavorite_id(rest.getInt("favorite_id"));
 				result.setFavorite_food(rest.getInt("favorite_food"));
 				result.setFavorite_user(rest.getInt("favorite_user"));				
@@ -79,8 +79,8 @@ public class favoritesDAO {
 		
 	private static final String INSERT = "Insert into FAVORITES (favorite_id ,favorite_food ,favorite_user) values (?, ?, ?)";
 
-	public favoritesBean insertMember(favoritesBean bean) throws SQLException {
-		favoritesBean result = null;
+	public favorites insertMember(favorites bean) throws SQLException {
+		favorites result = null;
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		try {
@@ -109,16 +109,49 @@ public class favoritesDAO {
 			}
 		}
 		return result;
+		
+		
 	}
 
-	
-	
-	
-	
-	
-	
-}
+	private static final String DELETE = "Delete from FAVORITES where favorite_id=?";
 
+	public int delete(int favorite_id) {
+		int result = 0;
+
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		try {
+			conn = ds.getConnection();
+			stmt = conn.prepareStatement(DELETE);
+
+			stmt.setInt(1, favorite_id);
+			result = stmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (stmt != null) {
+				try {
+					stmt.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return result;
+	
+	
+	
+	
+	
+	}
+}
 
 
 
