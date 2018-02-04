@@ -1,18 +1,18 @@
 package system;
 
-public class favorites {
+public class Favorites {
  private int favorite_id ;
  private int favorite_food ;
  private int favorite_user ;
 
 
- public favorites() {
+ public Favorites() {
 	 
 	super();
 }
 
 
-public favorites(int favorite_id, int favorite_food, int favorite_user) {
+public Favorites(int favorite_id, int favorite_food, int favorite_user) {
 	super();
 	this.favorite_id = favorite_id;
 	this.favorite_food = favorite_food;
@@ -48,6 +48,9 @@ public int getFavorite_user() {
 public void setFavorite_user(int favorite_user) {
 	this.favorite_user = favorite_user;
 }
+
+
+
  
  
  

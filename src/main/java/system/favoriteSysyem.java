@@ -1,14 +1,23 @@
 package system;
 
+import java.awt.print.Book;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 
 @WebServlet("/favoriteSysyem")
@@ -41,26 +50,52 @@ public class favoriteSysyem extends HttpServlet {
 		}
 			
 		br.close();
-		acceptjson=sb.toString();
-		if(acceptjson !="") {
-			 JSONObject jo = JSONObject.fromObject(acceptjson);  
-             JSONArray imgArray = jo.getJSONArray("Images");  
-             JSONArray infArray = jo.getJSONArray("Info");
-             
-             for(int i = 0 ; imgArray.size(); i++) {
-            	  JSONObject imgObject = JSONObject.fromObject(imgArray  
-                          .get(i));  
-                  System.out.println(imgObject.get("PartsImg"));  
-             }
-             JSONObject infObject = JSONObject.fromObject(infArray.get(0));  
-             System.out.println(infObject.get("favorite_id"));  
-             System.out.println(infObject.get("favorite_food"));  
-             System.out.println(infObject.get("favorite_user"));  
-         
-             System.out.println(jo.toString());  
-             
+//		acceptjson=sb.toString();
+//		if(acceptjson !="") {
+//			 JSONObject jo = JSONObject.fromObject(acceptjson);  
+//             JSONArray imgArray = jo.getJSONArray("Images");  
+//             JSONArray infArray = jo.getJSONArray("Info");
+//             
+//             for(int i = 0 ; imgArray.size(); i++) {
+//            	  JSONObject imgObject = JSONObject.fromObject(imgArray  
+//                          .get(i));  
+//                  System.out.println(imgObject.get("PartsImg"));  
+//             }
+//             JSONObject infObject = JSONObject.fromObject(infArray.get(0));  
+//             System.out.println(infObject.get("favorite_id"));  
+//             System.out.println(infObject.get("favorite_food"));  
+//             System.out.println(infObject.get("favorite_user"));  
+//         
+//             System.out.println(jo.toString());  
+		
+	
+
+
+		// List to JSON
+//		jsonStr = new JSONArray("???").toString();
+//		System.out.println("List to JSON: " + jsonStr);
+		// JSON to List
+		
+		
+		String jsonStr = "";
+		List<Favorites> list = new ArrayList<Favorites>();
+		JSONArray jsonArray = new JSONArray(jsonStr);
+		for (int i = 0; i < jsonArray.length(); i++) {
+			JSONObject json_favorites = jsonArray.getJSONObject(i);
+			int favorite_id = json_favorites.getInt("favorite_id");
+			int favorite_food = json_favorites.getInt("favorite_food");
+			int favorite_user = json_favorites.getInt("favorite_user");
+			Favorites favorites = new Favorites(1,2,3);
+			list.add(favorites);
 		}
-		response.getWriter().write("");
+		for (Favorites fs : list) {
+		//	favorites.show();
+		}
+		System.out.println();
+
+	response.getWriter().write("");
+		}
+		
 		
 	}
 		
@@ -72,4 +107,4 @@ public class favoriteSysyem extends HttpServlet {
 	
 	
 
-}
+
