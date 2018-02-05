@@ -1,0 +1,42 @@
+*{
+	margin:10px;
+	
+}
+
+
+body{
+	background-image:url("../images/true.jpg");
+	background-repeat:repeat-x;
+}
+#actions{
+	border:1px solid ;
+	
+}
+
+#td1{
+	border:10px solid #ccccc;
+	
+}
+
+img{
+	width:450px;
+	height:450px;
+}
+
+td{
+	border:1px solid green;
+	height:20px;
+	overflow: scroll;
+}
+#aaa{
+	font-size:6;
+	font-color:green;
+	
+}
+li{
+	font-size:5;
+}
+#footer{
+	background-image:url("../images/2015070577263153.JPG");
+	height:200px;
+}

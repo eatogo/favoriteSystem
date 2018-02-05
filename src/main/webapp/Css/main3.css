@@ -5,13 +5,13 @@
 
 
 body{
-	background-image:url("../../images/true.jpg");
+	background-image:url("../images/true.jpg");
 	background-repeat:repeat-x;
 }
 
 
 #footer{
-	background-image:url("../../images/2015070577263153.JPG");
+	background-image:url("../images/2015070577263153.JPG");
 	height:200px;
 	margin-top:550px;
 }

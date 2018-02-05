@@ -32,8 +32,8 @@ public class favoritesDAO {
 	private static final String SELECT_BY_ID="Select favorite_id ,favorite_food ,favorite_user  from FAVORITES where favorite_id=?";
 	
 	
-	public favorites select(String id) {
-		favorites result = null;
+	public Favorites select(String id) {
+		Favorites result = null;
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		ResultSet rest = null;
@@ -43,7 +43,7 @@ public class favoritesDAO {
 			stmt.setString(1,id);
 			rest= stmt.executeQuery();
 			if(rest.next()) {
-				result=new favorites();
+				result=new Favorites();
 				result.setFavorite_id(rest.getInt("favorite_id"));
 				result.setFavorite_food(rest.getInt("favorite_food"));
 				result.setFavorite_user(rest.getInt("favorite_user"));				
@@ -79,8 +79,8 @@ public class favoritesDAO {
 		
 	private static final String INSERT = "Insert into FAVORITES (favorite_id ,favorite_food ,favorite_user) values (?, ?, ?)";
 
-	public favorites insertMember(favorites bean) throws SQLException {
-		favorites result = null;
+	public Favorites insertMember(Favorites bean) throws SQLException {
+		Favorites result = null;
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		try {
