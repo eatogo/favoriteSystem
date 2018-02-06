@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix='c' %>
     
     
@@ -11,7 +11,7 @@
 -->
 <html>
 	<head>
-		<title>垫虫琩高</title>
+		<title>鑿滃柈鏌ヨ</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -30,103 +30,103 @@
 						<a href="index.html" >
 						<img id="img" src="images/21850482_2033332533351363_1003424777_n.png" alt="" />
 						</a><br>
-						<font size="7" color="purple" align="center">垫虫琩高</font>
+						<font size="7" color="purple" align="center">鑿滃柈鏌ヨ</font>
 					</header>
 				
 				<div id="out">
 					<div id="out1">
-					<p align="right";><button >穝糤</button>
+					<p align="right";><button >鏂板</button>
 					
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 					
 					
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 
 
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 						
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 						
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6"></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 						
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 						
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 						
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 						
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 						
 						<div id="bd2">
 							<img id="picture" src="images/giphy.gif"/>
 							<textarea align="center" maxlength="100" rows="6";></textarea><br>
-							<p align="justify";><span>基窥:1000</span><br></p>
-							<p align="justify";><span>计秖:100</span></p>
-							<p align="justify";><button >э</button>
-							<p align="justify";><button>埃</button></p>
+							<p align="justify";><span>鍍归將</span><br></p>
+							<p align="justify";><span>鏁搁噺</span></p>
+							<p align="justify";><button >淇敼</button>
+							<p align="justify";><button>鍒櫎</button></p>
 						</div>
 					</div>
 				

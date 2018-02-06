@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix='c' %>
 
 <!DOCTYPE HTML>
@@ -10,7 +10,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 -->
 <html>
     <head>
-        <title>Eatogo - ©±®aµù¥U</title>
+        <title>Eatogo - åº—å®¶è¨»å†Š</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -28,16 +28,16 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     <img src="images/logo.png" style="width: 7%;"/>
                 </a>
                 <nav>
-                    <a href="#menu">¥Ø¿ı</a>
+                    <a href="#menu">ç›®éŒ„</a>
                 </nav>
             </header>
 
             <!-- Menu -->
             <nav id="menu">
                 <ul class="links">
-                    <li><a href="index.html">µn¤J</a></li>
-                    <li><a href="µù¥Uµe­±.html">µù¥U±b¸¹</a></li>
-                    <li><a href="©±®aµù¥Uµe­±.html">©±®aµù¥U</a></li>
+                    <li><a href="index.html">ç™»å…¥</a></li>
+                    <li><a href="ï¿½ï¿½ï¿½Uï¿½eï¿½ï¿½.html">è¨»å†Šå¸³è™Ÿ</a></li>
+                    <li><a href="ï¿½ï¿½ï¿½aï¿½ï¿½ï¿½Uï¿½eï¿½ï¿½.html">åº—å®¶è¨»å†Š</a></li>
                 </ul>
             </nav>
 
@@ -45,7 +45,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             <section id="banner" class="major">
                 <div class="inner">
                     <header class="major">
-                        <h1>µù¥U©±®a</h1>
+                        <h1>è¨»å†Šåº—å®¶</h1>
                     </header>
                     <div class="content">
                         <h2>Create your store</h2>
@@ -57,26 +57,26 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             <section id="main">
                 <div class="inner">
                     <form action="RegisterSuccess.jsp" method="POST">
-                        ©±®a¦WºÙ<input style="margin-left: 1px;" type="text" name="storeName"><br>
-                        ©±®a¦a§}<input style="margin-left: 1px;" type="text" name="storeAddress"><br>
-                        Ápµ¸¹q¸Ü<input style="margin-left: 1px;" type="text" name="storePhone"><br>
-                        ¹q¤l«H½c<input style="margin-left: 1px;" type="email" name="storeEmail"><br>
-                        Àç·~¼Ò¦¡
+                     åº—å®¶åç¨±<input style="margin-left: 1px;" type="text" name="storeName"><br>
+                       åº—å®¶åœ°å€<input style="margin-left: 1px;" type="text" name="storeAddress"><br>
+                        è¯çµ¡é›»è©±<input style="margin-left: 1px;" type="text" name="storePhone"><br>
+                       é›»å­ä¿¡ç®±<input style="margin-left: 1px;" type="email" name="storeEmail"><br>
+                    ç‡Ÿæ¥­æ¨¡å¼
                         <select name="storeOperateType">
-                            <option selected="true">¥ş¤éÀç·~</option>
-                            <option>¤¤¤ÈÀç·~</option>
-                            <option>±ß¶¡Àç·~</option>
+                            <option selected="true">å…¨æ—¥ç‡Ÿæ¥­</option>
+                            <option>ä¸­åˆç‡Ÿæ¥­</option>
+                            <option>æ™šé–“ç‡Ÿæ¥­</option>
                         </select><br>
-                        ©±®a¿¤¥«<input style="margin-left:1px;" type="text" name="storeCity"><br>
-                        ©±®a¦a°Ï<input style="margin-left: 1px;" type="text" name="storeRegion"><br>
-                        Àç·~®É¶¡<input style="margin-left: 1px;" type="text" name="storeOpenHour"><br>
-                        ©±®aÂ²¤¶
+                     åº—å®¶ç¸£å¸‚<input style="margin-left:1px;" type="text" name="storeCity"><br>
+                    åº—å®¶åœ°å€<input style="margin-left: 1px;" type="text" name="storeRegion"><br>
+                        ç‡Ÿæ¥­æ™‚é–“<input style="margin-left: 1px;" type="text" name="storeOpenHour"><br>
+                   åº—å®¶ç°¡ä»‹
                         <textarea style="margin-left: 1px; resize: none" rows="4"></textarea><br>
-                        <button>©±®a¹Ï¤ù</button>
+                        <button>åº—å®¶åœ–ç‰‡</button>
                         <input style="margin-left: 1px; display: none" type="file">
                         <hr>
-                        <button type="submit">½T©w</button>
-                        <button type="reset">²M°£</button>
+                        <button type="submit">ç¢ºå®š</button>
+                        <button type="reset">æ¸…é™¤</button>
                     </form>
                 </div>
             </section>

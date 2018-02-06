@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix='c' %>
 
 <!DOCTYPE HTML>
@@ -10,7 +10,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 -->
 <html>
     <head>
-        <title>Eatogo - µù¥U¥Î¤á</title>
+        <title>Eatogo - è¨»å†Šç”¨æˆ¶</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -28,16 +28,16 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     <img src="images/logo.png" style="width: 7%;"/>
                 </a>
                 <nav>
-                    <a href="#menu">¥Ø¿ı</a>
+                    <a href="#menu">ç›®éŒ„</a>
                 </nav>
             </header>
 
             <!-- Menu -->
             <nav id="menu">
                 <ul class="links">
-                    <li><a href="index.html">µn¤J</a></li>
-                    <li><a href="µù¥Uµe­±.html">µù¥U±b¸¹</a></li>
-                    <li><a href="©±®aµù¥Uµe­±.html">©±®aµù¥U</a></li>
+                    <li><a href="index2.jsp">ç™»å…¥</a></li>
+                    <li><a href="RegisterForFirst.jsp">è¨»å†Šå¸³è™Ÿ</a></li>
+                    <li><a href="RegisterForSalse.jsp">åº—å®¶è¨»å†Š</a></li>
                 </ul>
             </nav>
 
@@ -45,7 +45,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             <section id="banner" class="major">
                 <div class="inner">
                     <header class="major">
-                        <h1>µù¥U</h1>
+                        <h1>è¨»å†Š</h1>
                     </header>
                     <div class="content">
                         <h2>Sign Up</h2>
@@ -57,15 +57,15 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             <section id="main" >
                 <div class="inner">
                     <form action="RegisterForSalse.jsp" method="POST"> 
-                        ¥Î¤á©m¦W<input style="margin-left: 1px;" type="text" name="name"><br>
-                        ¥Î¤á±K½X<input style="margin-left: 1px;" type="password" name="password"><br>
-                        ±K½XÅçÃÒ<input style="margin-left: 1px;" type="password" name="passwordAgain"><br>
-                        ¦æ°Ê¹q¸Ü<input style="margin-left: 1px;" type="text" name="cellphone"><br>
-                        ¹q¤l«H½c<input style="margin-left: 1px;" type="email" name="email"><br>
-                        <button>«H½cÅçÃÒ</button>
-                        <button>¤W¶Ç¹Ï¤ù</button><input style="margin-left: 1px; display: none" type="file"><hr>
-                        <button type="submit">µù¥U</button>
-                        <button type="reset">­«¶ñ</button>
+                      ç”¨æˆ¶å§“å<input style="margin-left: 1px;" type="text" name="name"><br>
+                        ç”¨æˆ¶å¯†ç¢¼<input style="margin-left: 1px;" type="password" name="password"><br>
+                       å¯†ç¢¼é©—è­‰<input style="margin-left: 1px;" type="password" name="passwordAgain"><br>
+                    è¡Œå‹•é›»è©±<input style="margin-left: 1px;" type="text" name="cellphone"><br>
+                      é›»å­ä¿¡ç®±<input style="margin-left: 1px;" type="email" name="email"><br>
+                        <button>ä¿¡ç®±é©—è­‰</button>
+                        <button>ä¸Šå‚³åœ–ç‰‡</button><input style="margin-left: 1px; display: none" type="file"><hr>
+                        <button type="submit">è¨»å†Š</button>
+                        <button type="reset">é‡å¡«</button>
                     </form>
                 </div>
             </section>

@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix='c' %>
 <!DOCTYPE HTML>
 <!--
@@ -9,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>·s¼Wµæ³æ</title>
+		<title>æ–°å¢žèœå–®</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -25,8 +25,10 @@
 				<!-- Header -->
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
 					<header id="header" class="alt style2">
-					
-						<a href="index.html" class="logo"><span>JAVA ANDROID CLASS</span></a>
+					  <a href="index2.jsp" class="logo">
+                    <img src="images/logo.png" style="width: 7%;"/>
+                </a>
+						
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -35,9 +37,9 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">¦^­º­¶</a></li>
-							<li><a href="landing.html">§Úªº­q³æ</a></li>
-							<li><a href="generic.html">­q³æ°O¿ý</a></li>
+							<li><a href="index2.jsp">å›žé¦–é </a></li>
+							<li><a href="landing.html">æˆ‘çš„è¨‚å–®</a></li>
+							<li><a href="generic.html">è¨‚å–®è¨˜éŒ„</a></li>
 							<!-- <li><a href="elements.html">Elements</a></li> -->
 						</ul>
 					<!-- 	<ul class="actions vertical">
@@ -54,7 +56,7 @@
 								<img src="images/7292448438513.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>½æ³õ¤¶²Ð</h1>
+								<h1>è³£å ´ä»‹ç´¹</h1>
 							</header>
 							<div class="content">
 								<p>
@@ -63,8 +65,8 @@
 								</p>
 							</div>
 							<ul class="actions">
-										<li><input type="submit" value="·s¼W§¹¦¨" class="special" /></li>
-										<li><input type="reset" value="²M°£" /></li>
+										<li><input type="submit" value="æ–°å¢žå®Œæˆ" class="special" /></li>
+										<li><input type="reset" value="æ¸…é™¤" /></li>
 									</ul>
 						</div>
 					</section>
@@ -76,9 +78,9 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>·s¼Wµæ³æ</h2>
+										<h2>æ–°å¢žèœå–®</h2>
 									</header>
-									<p><button>¤W¶ÇÀÉ®×</button>
+									<p><button>ä¸Šå‚³æª”æ¡ˆ</button>
 									</p>
 								</div>
 							</section>
@@ -92,10 +94,10 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>À\ÂI¤¶²Ð</h3>
+												<h3>é¤é»žä»‹ç´¹</h3>
 											</header>
 											<p>
-											<label for="">¸ê°T</label>
+											<label for="">è³‡è¨Š</label>
 											<textarea type="messageinfo" id="messageinfo" cols="100" rows="6"></textarea>
 											</p>
 										<!-- 	<ul class="actions">
@@ -111,7 +113,7 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>µæ¦â¦WºÙ</h3>
+												<h3>èœè‰²åç¨±</h3>
 											</header>
 											<p>
 											<textarea type="messageinfo" id="messageinfo" cols="100" rows="6"></textarea>
@@ -129,7 +131,7 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>µæ¦â»ù®æ</h3>
+												<h3>èœè‰²åƒ¹æ ¼</h3>
 											</header>
 											<textarea type="messageinfo" id="messageinfo" cols="100" rows="6"></textarea>
 											<!-- <ul class="actions">
@@ -209,8 +211,8 @@
 					
 							<section>
 							<div>
-							<button>·s¼W§¹¦¨</button>
-							<button>ªð¦^¤W¤@­¶</button>
+							<button>æ–°å¢žå®Œæˆ</button>
+							<button>è¿”å›žä¸Šä¸€é </button>
 							</div>
 							
 							</section>
@@ -233,13 +235,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+			<script src="${pageContext.request.contextPath}/js/jquery.scrolly.min.js"></script>
+			<script src="${pageContext.request.contextPath}/js/jquery.scrollex.min.js"></script>
+			<script src="${pageContext.request.contextPath}/js/skel.min.js"></script>
+			<script src="${pageContext.request.contextPath}/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="${pageContext.request.contextPath}/js/main.js"></script>
 
 	</body>
 </html>

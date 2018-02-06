@@ -77,7 +77,7 @@ public class favoriteSysyem extends HttpServlet {
 		// JSON to List
 		
 		
-		String jsonStr = "";
+		String jsonStr = "{['favorite_id':'1','favorite_food':'1','favorite_user':'1'],['favorite_id':'2','favorite_food':'2','favorite_user':'2'],['favorite_id':'3','favorite_food':'3','favorite_user':'3']}";
 		List<Favorites> list = new ArrayList<Favorites>();
 		JSONArray jsonArray = new JSONArray(jsonStr);
 		for (int i = 0; i < jsonArray.length(); i++) {
@@ -89,6 +89,7 @@ public class favoriteSysyem extends HttpServlet {
 			list.add(favorites);
 		}
 		for (Favorites fs : list) {
+		System.out.println(fs.toString());	
 		//	favorites.show();
 		}
 		System.out.println();

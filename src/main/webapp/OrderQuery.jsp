@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-	pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix='c'%>>
 <!DOCTYPE HTML>
 <!--
@@ -9,7 +9,7 @@
 -->
 <html>
 <head>
-<title>¬d¸ß­q³æ</title>
+<title>æŸ¥è©¢è¨‚å–®</title>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -30,7 +30,7 @@
 			<a href="index2.jsp" class="logo"> <img src="images/logo.png"
 				style="width: 5%  height: 5%;" />
 			</a><br> 
-			<font size="3" color="purple" align="center">­q³æ¬d¸ß</font>
+			<font size="3" color="purple" align="center">è¨‚å–®æŸ¥è©¢</font>
 		</header>
 
 		<!-- Menu -->
@@ -64,13 +64,13 @@
 		<!-- 	<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>©|¥¼¦¨¥ßªº­q³æ</h2>
+										<h2>ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ßªï¿½ï¿½qï¿½ï¿½</h2>
 									</header>
 									<div>
-										<div>­q³æ01<br>
+										<div>ï¿½qï¿½ï¿½01<br>
 											<span>
-											­q³æ<br>
-												<span>½T»{­q³æ¸ê°T</span>
+											ï¿½qï¿½ï¿½<br>
+												<span>ï¿½Tï¿½{ï¿½qï¿½ï¿½ï¿½T</span>
 											</span>
 										</div>
 									</div>
@@ -86,31 +86,31 @@
 				<div class="content">
 					<div class="inner">
 						<header class="major">
-							<h3>¤w±µ¦¬ªº­q³æ</h3>
+							<h3>å·²æŽ¥æ”¶çš„è¨‚å–®</h3>
 						</header>
 						<p></p>
 
 						<ul id="actions">
 							<!-- <li><a href="generic.html" class="button">Learn more</a></li> -->
 							<h1>
-								<li  font-size: 30px;><a href="­q³æ.html">­q³æ01</a></li>
+								<li  font-size: 30px;><a href="ï¿½qï¿½ï¿½.html">è¨‚å–®01</a></li>
 							</h1>
 							<h1>
-								<li  font-size: 30px;><a href="­q³æ.html">­q³æ02</a></li>
+								<li  font-size: 30px;><a href="ï¿½qï¿½ï¿½.html">è¨‚å–®02</a></li>
 							</h1>
 							<h1>
-								<li  font-size: 30px;><a href="­q³æ.html">­q³æ03</a></li>
+								<li  font-size: 30px;><a href="ï¿½qï¿½ï¿½.html">è¨‚å–®03</a></li>
 							</h1>
 							<h1>
-								<li  font-size: 30px;><a href="­q³æ.html">­q³æ04</a></li>
+								<li  font-size: 30px;><a href="ï¿½qï¿½ï¿½.html">è¨‚å–®04</a></li>
 							</h1>
 
 
 
 
-							<!-- 												<li><a href="­q³æ.html">­q³æ02</a></li>
-												<li><a href="­q³æ.html">­q³æ03</a></li>
-												<li><a href="­q³æ.html">­q³æ04</a></li> -->
+							<!-- 												<li><a href="ï¿½qï¿½ï¿½.html">ï¿½qï¿½ï¿½02</a></li>
+												<li><a href="ï¿½qï¿½ï¿½.html">ï¿½qï¿½ï¿½03</a></li>
+												<li><a href="ï¿½qï¿½ï¿½.html">ï¿½qï¿½ï¿½04</a></li> -->
 
 						</ul>
 						</label>
@@ -130,11 +130,11 @@
 											</header>
 											<p></p>
 											<ul id="actions">
-												<li>­q³æ01</li><br>
+												<li>ï¿½qï¿½ï¿½01</li><br>
 													
-												<li>­q³æ02</li><br>
-												<li>­q³æ03</li><br>
-												<li>­q³æ04</li><br>
+												<li>ï¿½qï¿½ï¿½02</li><br>
+												<li>ï¿½qï¿½ï¿½03</li><br>
+												<li>ï¿½qï¿½ï¿½04</li><br>
 											</ul>
 										</div>
 									</div>

@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix='c' %>
 
 <!DOCTYPE HTML>
@@ -32,10 +32,10 @@
 								<img src="images/pic07.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>µù¥U¦¨¥\</h1>
+								<h1>è¨»å†ŠæˆåŠŸ</h1>
 						
 				
-							<button type="submit"  value="¦^­º­¶" onclick="window.location.href('index2.jsp')">¦^­º­¶
+							<button type="submit"  value="å›žé¦–é " onclick="window.location.href('index2.jsp')">å›žé¦–é 
 							</button>							
 						
 								

@@ -81,7 +81,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                             <img src="images/26941216_2033218803362736_1257461377_n.png"/>
                         </span>
                         <header class="major">
-                            <h3><a href="新增菜單.html" class="link">新增菜單</a></h3>
+                            <h3><a href="AddMenu.jsp" class="link">新增菜單</a></h3>
                             <p>create your menu</p>
                         </header>
                     </article>

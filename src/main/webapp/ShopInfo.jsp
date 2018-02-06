@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
     <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix='c' %>>
 
 <!DOCTYPE HTML>
@@ -45,7 +45,7 @@
 							</header>
 							<div class="content">
 								<p>
-								<!-- ���W��<input type="message">		
+								<!-- 嚙踝蕭嚙磕嚙踝蕭<input type="message">		
 								-->
 								<div>
 								店家名稱<input type="message"><br/>								
@@ -53,7 +53,7 @@
 								店家電話<input type="message"><br/>							
 								電子信箱<input type="message"><br/>	
 															
-								<!-- ��~�ɬq<input type="Time"><br/> -->
+								<!-- 嚙踝蕭~嚙褕段<input type="Time"><br/> -->
 								
 								上傳照片<input type="file"> <br/>							
 								</div>				
@@ -68,9 +68,9 @@
 							</div>
 								<br/>
 								
-									<button type="submit"  value="�^����" onclick="window.location.href('index2.jsp')">����
+									<button type="submit"  value="回首頁" onclick="window.location.href('index2.jsp')">回首頁
 							</button>		
-								</p>
+								
 							</div>
 						</div>
 					</section>
