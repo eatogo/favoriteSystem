@@ -64,6 +64,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                       電子信箱<input style="margin-left: 1px;" type="email" name="email"><br>
                         <button>信箱驗證</button>
                         <button>上傳圖片</button><input style="margin-left: 1px; display: none" type="file"><hr>
+<!--                         <button>註冊</button> -->
                         <button type="submit">註冊</button>
                         <button type="reset">重填</button>
                     </form>
