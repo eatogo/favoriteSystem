@@ -58,9 +58,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                 <div class="inner">
                     <form action="RegisterForSalse.jsp" method="POST"> 
                       用戶姓名<input style="margin-left: 1px;" type="text" name="name"><br>
-                        用戶密碼<input style="margin-left: 1px;" type="password" name="password"><br>
+                        用戶密碼<input style="margin-left: 1px;" type="password" name="password" ><br>
                        密碼驗證<input style="margin-left: 1px;" type="password" name="passwordAgain"><br>
-                    行動電話<input style="margin-left: 1px;" type="text" name="cellphone"><br>
+                    行動電話<input style="margin-left: 1px;" type="text" name="cellphone" maxlength="10"><br>
                       電子信箱<input style="margin-left: 1px;" type="email" name="email"><br>
                         <button>信箱驗證</button>
                         <button>上傳圖片</button><input style="margin-left: 1px; display: none" type="file"><hr>

@@ -35,7 +35,7 @@
 								<h1>註冊成功</h1>
 						
 				
-							<button type="submit"  value="回首頁" onclick="window.location.href('index2.jsp')">回首頁
+							<button type="submit"  style="border-bottom: none"; ><a href="index2.jsp">回首頁</a>
 							</button>							
 						
 								
