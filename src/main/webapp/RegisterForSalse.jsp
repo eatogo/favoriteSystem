@@ -24,22 +24,20 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
             <!-- Header -->
             <header id="header" class="alt">
-                <a href="index.html" class="logo">
-                    <img src="images/logo.png" style="width: 7%;"/>
+                <a href="index2.jsp" class="logo">
+                    <img src="images/logo.png" style="width: 45%;"/>
                 </a>
-                <nav>
-                    <a href="#menu">目錄</a>
-                </nav>
+               
             </header>
 
             <!-- Menu -->
-            <nav id="menu">
-                <ul class="links">
-                    <li><a href="index.html">登入</a></li>
-                    <li><a href="���U�e��.html">註冊帳號</a></li>
-                    <li><a href="���a���U�e��.html">店家註冊</a></li>
-                </ul>
-            </nav>
+<!--             <nav id="menu"> -->
+<!--                 <ul class="links"> -->
+<!--                     <li><a href="index.html">登入</a></li> -->
+<!--                     <li><a href="���U�e��.html">註冊帳號</a></li> -->
+<!--                     <li><a href="���a���U�e��.html">店家註冊</a></li> -->
+<!--                 </ul> -->
+<!--             </nav> -->
 
             <!-- Banner -->
             <section id="banner" class="major">
@@ -57,19 +55,23 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             <section id="main">
                 <div class="inner">
                     <form action="RegisterSuccess.jsp" method="POST">
-                     店家名稱<input style="margin-left: 1px;" type="text" name="storeName"><br>
-                       店家地址<input style="margin-left: 1px;" type="text" name="storeAddress"><br>
-                        聯絡電話<input style="margin-left: 1px;" type="text" name="storePhone"><br>
+                     *店家名稱<input style="margin-left: 1px;" type="text" name="storeName" required><br>
+                       <a hrc="Googlemap.jsp">	<img src="images/earth-globe.png" /> </a>
+                       *店家地址<input style="margin-left: 1px;" type="text" name="storeAddress"required><br>
+                        *聯絡電話<input style="margin-left: 1px;" type="text" name="storePhone"required><br>
                        電子信箱<input style="margin-left: 1px;" type="email" name="storeEmail"><br>
-                    營業模式
+                        營業時間<input style="margin-left: 1px;" type="text" name="storeOpenHour"><br>
+<!--                      店家縣市<input style="margin-left:1px;" type="text" name="storeCity"><br> -->
+<!--                     店家地區<input style="margin-left: 1px;" type="text" name="storeRegion"><br> -->
+                    *營業模式
                         <select name="storeOperateType">
                             <option selected="true">全日營業</option>
                             <option>中午營業</option>
                             <option>晚間營業</option>
                         </select><br>
-                     店家縣市<input style="margin-left:1px;" type="text" name="storeCity"><br>
-                    店家地區<input style="margin-left: 1px;" type="text" name="storeRegion"><br>
-                        營業時間<input style="margin-left: 1px;" type="text" name="storeOpenHour"><br>
+                        *店家狀態<input style="margin-left: 1px;" type="text" name="storeOpenHour"required><br>
+                        
+                        
                    店家簡介
                         <textarea style="margin-left: 1px; resize: none" rows="4"></textarea><br>
                         <button>店家圖片</button>
