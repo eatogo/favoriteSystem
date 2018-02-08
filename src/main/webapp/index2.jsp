@@ -34,7 +34,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             <!-- Menu -->
             <nav id="menu">
                 <ul class="links">
-                    <li><a href="index.html">登入</a></li>
+                    <li><a href="Login.jsp">登入</a></li>
                     <li><a href="RegisterForFirst.jsp">註冊帳號</a></li>
                     <li><a href="RegisterForSalse.jsp">店家註冊</a></li>
                 </ul>

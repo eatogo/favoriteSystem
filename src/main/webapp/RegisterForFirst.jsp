@@ -80,5 +80,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <script src="${pageContext.request.contextPath}/js/util.js"></script>
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="${pageContext.request.contextPath}/js/main.js"></script>
+
     </body>
 </html>
