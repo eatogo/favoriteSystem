@@ -6,8 +6,7 @@ function checked() {
 	var pp = document.getElementById('phone');
 	var ee = document.getElementById('email');
 
-	if (x.value == "" || y.value == "" || n.value == "" || pp.value == ""
-			|| ee.value == "") {
+	if (x.value == "" || y.value == "" || n.value == "" || pp.value == ""|| ee.value == "") {
 		if (x.value != "" & y.value != "") {
 			if (x.value == y.value) {
 				alert("其他欄位不能為空")
@@ -25,9 +24,7 @@ function checked() {
 	} else {
 		alert("password is not mattched")
 	}
-	{
 
-	}
 
 	return true;
 
