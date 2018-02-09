@@ -56,7 +56,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                 <div class="inner">
                     <form action="RegisterSuccess.jsp" method="POST">
                      *店家名稱<input style="margin-left: 1px;" type="text" name="storeName" required><br>
-                       <a hrc="Googlemap.jsp">	<img src="images/earth-globe.png" /> </a>
+                       <a href="Googlemap.jsp">	<img src="images/earth-globe.png" /> </a>
                        *店家地址<input style="margin-left: 1px;" type="text" name="storeAddress"required><br>
                         *聯絡電話<input style="margin-left: 1px;" type="text" name="storePhone"required><br>
                        電子信箱<input style="margin-left: 1px;" type="email" name="storeEmail"><br>
