@@ -1,16 +1,16 @@
 package system;
 
-public class Favorites {
+public class FavoritesBean {
 	private int favorite_id;
 	private int favorite_food;
 	private int favorite_user;
 
-	public Favorites() {
+	public FavoritesBean() {
 
 		super();
 	}
 
-	public Favorites(int favorite_id, int favorite_food, int favorite_user) {
+	public FavoritesBean(int favorite_id, int favorite_food, int favorite_user) {
 		super();
 		this.favorite_id = favorite_id;
 		this.favorite_food = favorite_food;
