@@ -56,36 +56,6 @@ public class favoriteSysyem extends HttpServlet {
 		
 		
 		
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		String acceptjson="";
 		
 		BufferedReader br = new BufferedReader(new  InputStreamReader(
@@ -107,8 +77,8 @@ public class favoriteSysyem extends HttpServlet {
 		for(FavoritesBean bean:list) {
 	
 			FavoritesDAOImpl dao = new FavoritesDAOImpl();
-			dao.insert(bean);
 			
+			dao.insert(bean);
 			
 		}
 		
@@ -141,24 +111,24 @@ public class favoriteSysyem extends HttpServlet {
 		// JSON to List
 		
 		
-		String jsonStr = "{['favorite_id':'1','favorite_food':'1','favorite_user':'1'],['favorite_id':'2','favorite_food':'2','favorite_user':'2'],['favorite_id':'3','favorite_food':'3','favorite_user':'3']}";
-		List<FavoritesBean> list1 = new ArrayList<FavoritesBean>();
-		JSONArray jsonArray = new JSONArray(jsonStr);
-		for (int i = 0; i < jsonArray.length(); i++) {
-			JSONObject json_favorites = jsonArray.getJSONObject(i);
-			int favorite_id = json_favorites.getInt("favorite_id");
-			int favorite_food = json_favorites.getInt("favorite_food");
-			int favorite_user = json_favorites.getInt("favorite_user");
-			FavoritesBean favorites = new FavoritesBean(1,2,3);
-			list1.add(favorites);
-		}
-		for (FavoritesBean fs : list1) {
-		System.out.println(fs.toString());	
-		//	favorites.show();
-		}
-		System.out.println();
-
-	response.getWriter().write("");
+//		String jsonStr = "{['favorite_id':'1','favorite_food':'1','favorite_user':'1'],['favorite_id':'2','favorite_food':'2','favorite_user':'2'],['favorite_id':'3','favorite_food':'3','favorite_user':'3']}";
+//		List<FavoritesBean> list1 = new ArrayList<FavoritesBean>();
+//		JSONArray jsonArray = new JSONArray(jsonStr);
+//		for (int i = 0; i < jsonArray.length(); i++) {
+//			JSONObject json_favorites = jsonArray.getJSONObject(i);
+//			int favorite_id = json_favorites.getInt("favorite_id");
+//			int favorite_food = json_favorites.getInt("favorite_food");
+//			int favorite_user = json_favorites.getInt("favorite_user");
+//			FavoritesBean favorites = new FavoritesBean(1,2,3);
+//			list1.add(favorites);
+//		}
+//		for (FavoritesBean fs : list1) {
+//		System.out.println(fs.toString());	
+//		//	favorites.show();
+//		}
+//		System.out.println();
+//
+//	response.getWriter().write("");
 		}
 		
 		

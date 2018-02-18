@@ -47,7 +47,7 @@ public class Jsondemo {
 		
 		for (FavoritesBean fs : listreturn) {
 			System.out.println(fs.toString());
-//			dao.insert(fs);
+			dao.insert(fs);
 		}
 	}
 }

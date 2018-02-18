@@ -18,7 +18,7 @@ public class FavoritesDAOImpl {
 	
 	
 	
-	String sql ="Select favorite_id ,favorite_food ,favorite_user  from FAVORITES where favorite_id=?";
+//	String sql ="Select favorite_id ,favorite_food ,favorite_user  from FAVORITES where favorite_id=?";
 	
 	
 	public int insert(FavoritesBean bean) {
@@ -43,11 +43,11 @@ public class FavoritesDAOImpl {
 		
 		
 	
-	private static final String DELETE = "Delete from FAVORITES where favorite_id=?";
+//	private static final String DELETE = "Delete from FAVORITES where favorite_id=?";
 
 	public int delete(int key) {
 		int count = 0;
-
+		String sql ="Delete from FAVORITES where favorite_id=?";
 	
 		try (
 			Connection con=DriverManager.getConnection(SystemUtils.URL);
