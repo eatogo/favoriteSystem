@@ -10,6 +10,19 @@ public class FavoritesBean {
 		super();
 	}
 
+	public FavoritesBean(int favorite_food) {
+		super();
+		this.favorite_food = favorite_food;
+	}
+
+
+
+	public FavoritesBean(int favorite_food, int favorite_user) {
+		super();
+		this.favorite_food = favorite_food;
+		this.favorite_user = favorite_user;
+	}
+
 	public FavoritesBean(int favorite_id, int favorite_food, int favorite_user) {
 		super();
 		this.favorite_id = favorite_id;

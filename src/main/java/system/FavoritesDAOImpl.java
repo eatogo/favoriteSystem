@@ -22,15 +22,15 @@ public class FavoritesDAOImpl {
 	
 	
 	public int insert(FavoritesBean bean) {
-		String sql="INSERT INTO FAVORITES VALUES (? , ? ,?)";
+		String sql="INSERT INTO FAVORITES  (favorite_food, favorite_user)VALUES (?,?)";
 		 int count = 0;
 		try(
 				Connection con=DriverManager.getConnection(SystemUtils.URL);
 				PreparedStatement	stm=con.prepareStatement(sql);
 		) {
-			stm.setInt(1,bean.getFavorite_id());
-			stm.setInt(2,bean.getFavorite_food());
-			stm.setInt(3,bean.getFavorite_user());
+		
+			stm.setInt(1,bean.getFavorite_food());
+			stm.setInt(2,bean.getFavorite_user());
 			count = stm.executeUpdate();
 			
 		} catch (SQLException e) {
