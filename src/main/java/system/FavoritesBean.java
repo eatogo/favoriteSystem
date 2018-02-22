@@ -49,13 +49,13 @@ public class FavoritesBean {
 	public int getFavorite_user() {
 		return favorite_user;
 	}
-
+ 
 	public void setFavorite_user(int favorite_user) {
 		this.favorite_user = favorite_user;
 	}
 
 	@Override
-	public String toString() {
+	public String toString() { 
 		return "Favorites [favorite_id=" + favorite_id + ", favorite_food=" + favorite_food + ", favorite_user="
 				+ favorite_user + "]";
 	}

@@ -11,9 +11,9 @@ import java.util.List;
 import util.SystemUtils;
 
 public class FavoritesDAOImpl {
-	
+	 
 
-	public FavoritesDAOImpl(){	
+	public FavoritesDAOImpl(){	 
 	}
 	
 	

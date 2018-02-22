@@ -19,7 +19,7 @@ public class Jsondemo {
 	List<FavoritesBean> listreturn = new ArrayList<FavoritesBean>();
 	String jsonStr;
 	Gson gson;
-	
+	 
 	@Before
 	public void init() {
 	}

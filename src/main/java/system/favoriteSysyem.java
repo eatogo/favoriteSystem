@@ -27,14 +27,14 @@ import com.google.gson.reflect.TypeToken;
 
 
 @WebServlet("/favoriteSysyem")
-
+ 
 public class favoriteSysyem extends HttpServlet {
 	String jsonStr= "{['favorite_id':'1','favorite_food':'1','favorite_user':'1'],['favorite_id':'2','favorite_food':'2','favorite_user':'2'],['favorite_id':'3','favorite_food':'3','favorite_user':'3']}"; ;
 	private static final long serialVersionUID = 1L;
 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-			
+		 	
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
