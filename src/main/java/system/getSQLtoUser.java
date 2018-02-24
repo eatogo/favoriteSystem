@@ -46,7 +46,7 @@ public class getSQLtoUser extends HttpServlet {
 			int favorite_id = json_favorites.getInt("favorite_id");
 			int favorite_food = json_favorites.getInt("favorite_food");
 			int favorite_user = json_favorites.getInt("favorite_user");
-			FavoritesBean favorites = new FavoritesBean(1,2,3);
+			FavoritesBean favorites = new FavoritesBean(favorite_id,favorite_food,favorite_user);
 			list1.add(favorites);
 			
 		}

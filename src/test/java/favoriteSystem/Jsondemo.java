@@ -27,9 +27,9 @@ public class Jsondemo {
 	@Test
 	public void test() {
 		//準備資料
-		FavoritesBean fav1 = new FavoritesBean(1);
-		FavoritesBean fav2 = new FavoritesBean(2);
-		FavoritesBean fav3 = new FavoritesBean(3);
+		FavoritesBean fav1 = new FavoritesBean(10,1);
+		FavoritesBean fav2 = new FavoritesBean(54,1);
+		FavoritesBean fav3 = new FavoritesBean(65,1);
 		list.add(fav1);
 		
 		list.add(fav2);
